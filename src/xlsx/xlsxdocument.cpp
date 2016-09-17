@@ -1044,3 +1044,6 @@ Document::~Document()
 }
 
 QT_END_NAMESPACE_XLSX
+
+
+#include "moc_xlsxdocument.cpp"

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SrcDir)xlsxabstractooxmlfile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxabstractsheet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxcell.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxcellformula.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxcellrange.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxcellreference.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxchart.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxchartsheet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxcolor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxconditionalformatting.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxcontenttypes.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxdatavalidation.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxdocpropsapp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxdocpropscore.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxdocument.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxdrawing.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxdrawinganchor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxformat.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxmediafile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxnumformatparser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxrelationships.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxrichstring.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxsharedstrings.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxsimpleooxmlfile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxstyles.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxtheme.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxutility.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxworkbook.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxworksheet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxzipreader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SrcDir)xlsxzipwriter.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SrcDir)xlsxdocument.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SrcDir)version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxabstractooxmlfile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxabstractooxmlfile_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxabstractsheet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxabstractsheet_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcell_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcellformula.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcellformula_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcellrange.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcellreference.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxchart.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxchart_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxchartsheet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxchartsheet_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcolor_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxconditionalformatting.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxconditionalformatting_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxcontenttypes_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdatavalidation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdatavalidation_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdocpropsapp_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdocpropscore_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdocument_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdrawing_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxdrawinganchor_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxformat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxformat_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxglobal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxmediafile_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxnumformatparser_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxrelationships_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxrichstring.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxrichstring_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxsharedstrings_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxsimpleooxmlfile_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxstyles_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxtheme_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxutility_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxworkbook.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxworkbook_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxworksheet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxworksheet_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxzipreader_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SrcDir)xlsxzipwriter_p.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SrcDir)QtXlsx.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
