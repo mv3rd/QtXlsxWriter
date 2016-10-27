@@ -40,7 +40,7 @@
     <ClCompile Include="$(SrcDir)xlsxzipreader.cpp" />
     <ClCompile Include="$(SrcDir)xlsxzipwriter.cpp" />
     <CustomBuild Include="$(SrcDir)xlsxdocument.h">
-      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs>$(QTDIR)bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Message>Moc%27ing %(Filename).h...</Message>
       <Outputs>$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp</Outputs>
       <Command>"$(QTDIR)bin\moc.exe" "%(FullPath)" -o "$(QtOutputDir)$(Configuration)_$(Platform)\moc_%(Filename).cpp" $(QT_MOC_ARG)</Command>
