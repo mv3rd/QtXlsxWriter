@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(SolutionDir)QtXlsxWriter\vstudio\QtXlsx.props" />
+  <Import Project="$(SolutionDir)lib\QtXlsxWriter\vstudio\QtXlsx.props" />
   <Import Project="$(SolutionDir)settings.props" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9D75D77F-3BB3-4F18-B90C-4BA87B2FBC3C}</ProjectGuid>

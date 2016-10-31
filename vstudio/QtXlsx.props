@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
     <WorkDir>$(SolutionDir)/</WorkDir>
-    <SrcDir>$(WorkDir)QtXlsxWriter\src\xlsx/</SrcDir>
+    <SrcDir>$(WorkDir)lib\QtXlsxWriter\src\xlsx/</SrcDir>
     <UseQT>true</UseQT>
     <GlobalPreprocessorDefinitions>QT_BUILD_XLSX_LIB</GlobalPreprocessorDefinitions>
   </PropertyGroup>
