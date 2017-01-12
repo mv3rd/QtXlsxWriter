@@ -68,7 +68,7 @@
 #define INTERAL_NAME        _T(_CRT_STRINGIZE(PROJECT_NAME))
 #define FILE_DESCRIPTION    _T("QtXlsx")
 #define PRODUCT_NAME        FILE_DESCRIPTION
-#define LEGAL_COPYRIGHT     _T("Copyright (C) 2016-2016 ") COMPANY_NAME
+#define LEGAL_COPYRIGHT     _T("Copyright (C) 2016-2017 ") COMPANY_NAME
 
 #define FILE_VERSION        _T(_CRT_STRINGIZE(FILE_VERSION_MAJOR)) _T(".")    \
                             _T(_CRT_STRINGIZE(FILE_VERSION_MINOR)) _T(".")    \
